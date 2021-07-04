@@ -1,0 +1,43 @@
+{
+  "name": "webpack-guide",
+  "version": "1.0.0",
+  "description": "webpack-guide",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack",
+    "start": "webpack serve",
+    "stats": "STATS=server webpack --json build-stats.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshifMohammad/webpack-guide.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Ashif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AshifMohammad/webpack-guide/issues"
+  },
+  "homepage": "https://github.com/AshifMohammad/webpack-guide#readme",
+  "devDependencies": {
+    "css-loader": "^5.2.6",
+    "less-loader": "^10.0.1",
+    "sass": "^1.35.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.0.0",
+    "webpack": "^5.42.0",
+    "webpack-bundle-analyzer": "^4.4.2",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.14.7",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.15.2",
+    "regenerator-runtime": "^0.13.7"
+  }
+}
